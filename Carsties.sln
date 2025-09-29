@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{D79EB2A0-DA8C-4D7C-A5A3-D5E9B21EEBB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{71122A7C-DC64-4F99-9251-6CB3664B3440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,24 @@ Global
 		{D79EB2A0-DA8C-4D7C-A5A3-D5E9B21EEBB4}.Release|x64.Build.0 = Release|Any CPU
 		{D79EB2A0-DA8C-4D7C-A5A3-D5E9B21EEBB4}.Release|x86.ActiveCfg = Release|Any CPU
 		{D79EB2A0-DA8C-4D7C-A5A3-D5E9B21EEBB4}.Release|x86.Build.0 = Release|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Debug|x64.Build.0 = Debug|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Debug|x86.Build.0 = Debug|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Release|x64.ActiveCfg = Release|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Release|x64.Build.0 = Release|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Release|x86.ActiveCfg = Release|Any CPU
+		{71122A7C-DC64-4F99-9251-6CB3664B3440}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D79EB2A0-DA8C-4D7C-A5A3-D5E9B21EEBB4} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{71122A7C-DC64-4F99-9251-6CB3664B3440} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal

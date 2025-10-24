@@ -32,6 +32,8 @@ try
         });
     }
 
+    app.UseStaticFiles();
+    app.UseRouting();
     app.Run();
 }
 catch (Exception ex) when (ex is not HostAbortedException)

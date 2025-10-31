@@ -10,7 +10,7 @@ type Props = {
 
 export default function AuctionCard({ auction }: Props) {
   return (
-    <a href="#">
+    <a href={`/auctions/details/${auction.id}`}>
       <div className="relative w-full bg-gray-200 aspect-video rounded-lg overflow-hidden">
         <CarImage imageUrl={auction.imageUrl} />
         <div className="absolute bottom-2 left-2">

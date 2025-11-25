@@ -69,6 +69,11 @@ namespace BiddingService.Controllers
             return Ok(_mapper.Map<BidDto>(bid));
 
         }
+        [HttpGet]
+        public ActionResult<string> GetBids()
+        {
+            return Ok("get bids");
+        }
         [HttpGet("{auctionId}")]
         public async Task<ActionResult<List<BidDto>>> GetBidsForAuction(string auctionId)
         {

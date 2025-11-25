@@ -131,7 +131,7 @@ services:
       rabbitmq:
         condition: service_healthy
   notify-svc:
-    image: eberelee/bid-svc:latest
+    image: eberelee/notify-svc:latest
     build: 
       context: .
       dockerfile: src/NotificationService/Dockerfile
